@@ -1,0 +1,59 @@
+ /* external css  */
+
+ h4{
+    color:cornflowerblue;
+ }
+
+ h2 {
+    color: darkslategrey;
+ }
+
+ /* using directly target Element */
+ body{
+    background-color: wheat;
+ }
+h1{
+    color: red;
+    text-align: center;
+}
+
+/* by targeting class */
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/* using id by targeting them */
+#circle{
+    color: violet;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ read me
+
+To style different elements in our html page - there are three methods
+
+ 1. Directly Target Element 
+ 2. Grab it by the class
+ 3. Third WE can add id to it.... */ 
+
+
+
