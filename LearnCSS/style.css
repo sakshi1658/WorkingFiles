@@ -1,7 +1,12 @@
  /* external css  */
-
+ body{
+    background-image: url(uploads/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
  h4{
-    color:cornflowerblue;
+    color:black;
  }
 
  h2 {
@@ -9,9 +14,11 @@
  }
 
  /* using directly target Element */
- body{
+
+ /* body{
     background-color: wheat;
- }
+ } */
+
 h1{
     color: red;
     text-align: center;
@@ -31,7 +38,13 @@ h1{
     font-size: 50px;
 }
 
+.container{
+    background-color: violet;
+}
 
+.borderImg{
+    border: 2px solid red;
+}
 
 
 
