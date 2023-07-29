@@ -1,12 +1,13 @@
  /* external css  */
- body{
-    background-image: url(uploads/2.jpg);
+ body {
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url(1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
- }
+}
+
  h4{
-    color:black;
+    color:rgb(236, 15, 126);
  }
 
  h2 {
@@ -26,27 +27,45 @@ h1{
 
 /* by targeting class */
 .square{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(182, 182, 236);
     margin: auto;
 }
 
 /* using id by targeting them */
 #circle{
-    color: violet;
+    color: rgb(143, 94, 143);
     font-size: 50px;
 }
 
 .container{
-    background-color: violet;
+    background-color: rgb(166, 167, 115);
+    font-size: large;
 }
 
 .borderImg{
-    border: 2px solid red;
+    border: 5px  dashed red;
 }
 
+ul li {
+    color: white;
+    font-size: 20px;
+}
 
+ul > li {
+    color: orange;
+}
+
+/* grouping the element 
+its like target the element you have together*/
+
+h1,h2,h3 {
+    text-decoration-color: aliceblue;
+    font-weight: 500;
+    font-style: oblique;
+    
+}
 
 
 
